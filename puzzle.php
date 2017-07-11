@@ -81,7 +81,7 @@ $a=$b="";
 			  Which smaller image is more relavant to bigger image?<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 			  <span class="auto-style3">&nbsp; (click most appropriate image)</span><span class="auto-style3">&nbsp; 
       </span>   </div>
-        <form method="post" action='./puzzle.php #course-sec' >
+        <form method="post" action='./puzzle.php#course-sec' >
              <div id="small-image">
              <?php foreach ($array_rand_numbers as $x) {//array_rand_number will have 6 folder names in which one is correct
                   $image_name=$x."/".(rand()%MAX).".jpg" ;//$x is folder number here and random            

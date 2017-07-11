@@ -70,7 +70,7 @@
          <br/><br/>
        
          <div id="options">
-        <form method="post" action='./identipic.php #course-sec' >
+        <form method="post" action='./identipic.php#course-sec' >
            &nbsp;<span class="auto-style1">
                <select name="selected_option" style="width: 320px; height: 28px;">
                 <option value="0">Flower</option>  
